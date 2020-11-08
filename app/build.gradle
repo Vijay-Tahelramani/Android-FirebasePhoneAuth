@@ -39,4 +39,9 @@ dependencies {
 
     implementation platform('com.google.firebase:firebase-bom:26.0.0')
     implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-analytics'
+
+    //Prevents Emulator Crash On App Verification reCaptcha
+    implementation 'com.firebaseui:firebase-ui-auth:6.2.1'
+    implementation 'com.firebaseui:firebase-ui-database:6.2.1'
 }
